@@ -113,3 +113,9 @@ console.log(otroConjunto.valores());
 let res = otroConjunto.interseccion(conjunto1);
 
 console.log(res.valores());
+
+
+// --------- Diferencia ------------------
+
+let dif = otroConjunto.diferencia(conjunto2);
+console.log(dif.valores());
