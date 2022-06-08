@@ -108,4 +108,8 @@ let otroConjunto = conjunto3.union(conjuntoResultado);
 
 console.log(otroConjunto.valores());
 
-// console.log(coleccion);
+// -------- Intersección ----------------
+
+let res = otroConjunto.interseccion(conjunto1);
+
+console.log(res.valores());
